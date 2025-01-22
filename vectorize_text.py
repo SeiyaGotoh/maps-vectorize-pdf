@@ -3,6 +3,7 @@ import os
 from azure.core.credentials import AzureKeyCredential
 from azure.search.documents import SearchClient
 
+
 def main(text,file_name):
     """テキストをベクトル化する関数"""
     # OpenAI API を使ってテキストをベクトル化
